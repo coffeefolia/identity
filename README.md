@@ -1,5 +1,6 @@
 # identity
-Username generator application. To run locally, navigate to the `identity` base folder and spin up a local web server: 
+Username generator application. <br>
+To run locally, navigate to the `identity` base folder and spin up a local web server: 
 
 ```python3 -m http.server```
 
