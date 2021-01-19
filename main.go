@@ -17,7 +17,7 @@ func main() {
 	// seed random with time
 	rand.Seed(time.Now().UTC().UnixNano())
 	// read in dictionary file
-	f, err := ioutil.ReadFile("dict.txt")
+	f, err := ioutil.ReadFile("files/5ltrwd.txt")
 	check(err)
 	l := strings.Split(string(f), "\n")
 
@@ -26,8 +26,8 @@ func main() {
 		a := rand.Intn(lenl - 1)
 		b := rand.Intn(lenl - 1)
 		c := l[a] + l[b]
-		if len(c) > 15 {
-			println(c[:15])
+		if len(c) > 12 {
+			println(c[:12])
 		} else {
 			println(c)
 		}
