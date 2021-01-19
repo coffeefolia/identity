@@ -21,7 +21,7 @@ func main() {
 	check(err)
 	l := strings.Split(string(f), "\n")
 
-	for i := 0; i < 10; i++ { // combine and print word mash
+	for i := 0; i < 50; i++ { // combine and print word mash
 		lenl := len(l) - 1
 		a := rand.Intn(lenl - 1)
 		b := rand.Intn(lenl - 1)
