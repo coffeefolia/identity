@@ -1,4 +1,4 @@
-# identity
+# identity 🔮
 Generate Random Usernames <br>
 
 You can run this application by executing the `identity` binary:
