@@ -35,7 +35,7 @@ func main() {
 		if len(c) > WORDLEN_A {
 			c = c[:WORDLEN_A]
 		}
-		if len(c) > WORDLEN_B {
+		if len(d) > WORDLEN_B {
 			d = d[:WORDLEN_B]
 		}
 		e := c + d
